@@ -1,0 +1,10 @@
+server:
+  port: ${PORT:80}
+
+spring:
+  application:
+    name: consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS:127.0.0.1:8848}
