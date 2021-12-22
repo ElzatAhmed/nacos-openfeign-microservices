@@ -6,6 +6,7 @@
     <modules>
         <module>commons</module>
         <module>hello-provider</module>
+        <module>goodbye-provider</module>
     </modules>
 
     <parent>
