@@ -1,0 +1,10 @@
+server:
+  port: ${PORT:8010}
+
+spring:
+  application:
+    name: hello-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS:127.0.0.1:8848}
